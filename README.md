@@ -1,7 +1,7 @@
 - 👋 Hi, I’m @rajashekarpatha07
 - 👀 I’m interested in Web Dev
 - 🌱 I’m currently learning CSS
-- 📫 How to reach me Gmail:Rajashekarpatha07@gmail.con
+- 📫 How to reach me Gmail:Rajashekarpatha07@gmail.com
 
 
 <!---
