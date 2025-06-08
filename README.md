@@ -58,24 +58,24 @@
 
 ## 📊 GitHub Stats
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=your-username&show_icons=true&theme=dracula&hide_border=true" alt="GitHub Stats" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=your-username&theme=dracula&hide_border=true" alt="GitHub Streak" />
+  <img src="https://github-readme-stats.vercel.app/api/rajashekarpatha07&show_icons=true&theme=dracula&hide_border=true" alt="GitHub Stats" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/rajashekarpatha07&theme=dracula&hide_border=true" alt="GitHub Streak" />
 </div>
 
 ## 🏆 GitHub Trophies
 <div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=your-username&theme=dracula&no-frame=true&margin-w=15" alt="GitHub Trophies" />
+  <img src="https://github-profile-trophy.vercel.app/rajashekarpatha07&theme=dracula&no-frame=true&margin-w=15" alt="GitHub Trophies" />
 </div>
 
 ## 🔝 Top Contributed Repo
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=your-username&repo=your-top-repo&theme=dracula&hide_border=true" alt="Top Repo" />
+  <img src="https://github-readme-stats.vercel.app/api/pin/rajashekarpatha07&repo=your-top-repo&theme=dracula&hide_border=true" alt="Top Repo" />
 </div>
 
 ---
 
 <div align="center">
-  <img src="https://visitcount.itsvg.in/api?id=your-username&label=Profile%20Views&color=1&icon=5&pretty=true" alt="Visitor Count" />
+  <img src="https://visitcount.itsvg.in/api/rajashekarpatha07&label=Profile%20Views&color=1&icon=5&pretty=true" alt="Visitor Count" />
 </div>
 
 <!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
