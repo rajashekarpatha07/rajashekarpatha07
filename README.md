@@ -1,131 +1,195 @@
+<!-- Animated Wave Header -->
 <div align="center">
-  <!-- Itachi Uchiha Banner -->
-  <img src="https://i.redd.it/dcgcrvejc9x41.jpg" alt="Itachi Uchiha Banner" width="700" /><br>
-  <h1>🥷 Raja Shekar, the Sharingan Coder</h1>
-  <p>A shadow shinobi wielding code like Amaterasu, forging unbreakable systems under Itachi's crimson gaze.</p>
-  <!-- Jōnin Rank Badge -->
-  <img src="https://img.shields.io/badge/Rank-Jōnin%20of%20the%20Sharingan-7C3AED?style=flat-square&labelColor=18181B&color=7C3AED" alt="Jōnin Sharingan" /><br>
-  <!-- Dynamic Typing Animation -->
-  <div style="display: flex; justify-content: center; width: 100%;">
-    <img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&size=20&color=EF4444&center=true&vCenter=true&width=500&height=50&duration=1400&lines=Node.js+Shadow+Master;MedSwift+Sage;Tsukuyomi+Code;Hidden+Leaf+Elite" alt="Typing SVG" />
+  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,2,5,30&height=200&section=header&text=Raja%20Shekar&fontSize=50&fontColor=00D4FF&animation=twinkling&fontAlignY=38&desc=Full%20Stack%20Developer%20%7C%20Backend%20Architect&descAlignY=55&descSize=25" alt="Header" />
+</div>
+
+<!-- Animated Intro -->
+<div align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=20&pause=1000&color=00D4FF&center=true&vCenter=true&random=false&width=500&lines=Building+Scalable+Solutions+🚀;Real-time+Systems+Architect+⚡;Open+Source+Enthusiast+💻;Problem+Solver+🔧" alt="Typing SVG" />
+</div>
+
+<!-- Quick Stats Bar -->
+<div align="center" style="display: flex; flex-wrap: wrap; justify-content: center; gap: 10px; max-width: 100%;">
+  <img src="https://img.shields.io/badge/Focus-Backend%20Development-00D4FF?style=for-the-badge&labelColor=0A0E27" alt="Focus" />
+  <img src="https://img.shields.io/badge/Experience-Node.js%20Expert-00FF88?style=for-the-badge&labelColor=0A0E27" alt="Experience" />
+  <img src="https://img.shields.io/badge/Location-Hyderabad%2C%20India-FF6B6B?style=for-the-badge&labelColor=0A0E27" alt="Location" />
+</div>
+
+<br/>
+
+<!-- About Me Section -->
+<h2 align="center"><img src="https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700bl&rid=giphy.gif" width="30"> About Me</h2>
+
+<div style="display: flex; flex-wrap: wrap; justify-content: center; align-items: center; gap: 20px;">
+  <div style="flex: 1; max-width: 400px;">
+    <pre><code class="language-javascript">const rajaShekhar = {
+  role: "Full Stack Developer",
+  location: "Hyderabad, India",
+  currentProject: "MedSwift - Real-time Ambulance Tracking",
+  workingOn: ["Backend Architecture", "Real-time Systems", "Scalable APIs"],
+  learning: ["System Design", "Cloud Architecture", "DevOps"],
+  funFact: "I debug with console.log and I'm proud of it! 😄",
+  code: ["JavaScript", "TypeScript", "Python", "C"],
+  tools: ["Node.js", "Express", "MongoDB", "Socket.IO"],
+  architecture: ["Microservices", "REST APIs", "Real-time", "MVC"]
+};</code></pre>
   </div>
+  <img align="right" alt="Coding" width="300" src="https://raw.githubusercontent.com/devSouvik/devSouvik/master/gif3.gif" style="max-width: 100%;">
 </div>
 
----
+<br clear="right"/>
 
-## 🏮 Shinobi Codex
-- 🗡️ **Mission**: [MedSwift](https://github.com/rajashekarpatha07/medswift) – Real-time ambulance tracking, executed with Itachi's precision
-- 🛠️ **Arsenal**: Node.js, Express, MongoDB, Socket.IO, JWT
-- ⚔️ **Honor**: Stealth, scalability, flawless execution
-- 📜 **Scroll**: Crafting legendary code in the Hidden Code Village
-<div align="center">
-  <img src="https://img.shields.io/badge/Node.js-95%25-6DA55F?style=flat-square&labelColor=18181B&color=6DA55F" alt="Node.js Mastery" />
-  <img src="https://img.shields.io/badge/Express-90%25-404D59?style=flat-square&labelColor=18181B&color=404D59" alt="Express Jutsu" />
-  <img src="https://img.shields.io/badge/MongoDB-88%25-4EA94B?style=flat-square&labelColor=18181B&color=4EA94B" alt="MongoDB Chakra" />
-</div>
+<!-- Connect With Me -->
+<h2 align="center"><img src="https://media.giphy.com/media/iY8CRBdQXODJSCERIr/giphy.gif" width="30"> Connect With Me</h2>
 
----
-
-## 🌌 Connect with the Hidden Code Village
-<div align="center">
+<div align="center" style="display: flex; flex-wrap: wrap; justify-content: center; gap: 10px;">
   <a href="https://www.linkedin.com/in/raja-shekar-patha-4519a6340/" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" />
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0A0E27" alt="LinkedIn" />
   </a>
-  <a href="mailto:rajashekarpatha07@gmail.com" target="_blank">
-    <img src="https://img.shields.io/badge/Email-EF4444?style=flat-square&logo=gmail&logoColor=white" alt="Email" />
+  <a href="mailto:rajashekarpatha07@gmail.com">
+    <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0A0E27" alt="Email" />
   </a>
+  <a href="https://github.com/rajashekarpatha07">
+    <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white&labelColor=0A0E27" alt="GitHub" />
+  </a>
+  <a href="https://github.com/rajashekarpatha07">
+    <img src="https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&logo=google-chrome&logoColor=white&labelColor=0A0E27" alt="Portfolio" />
+  </a>
+</div>
+
+<!-- Tech Stack -->
+<h2 align="center"><img src="https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700bl&rid=giphy.gif" width="30"> Tech Stack</h2>
+
+<div align="center" style="display: flex; flex-wrap: wrap; justify-content: center; gap: 20px;">
+
+  <div style="flex: 1; min-width: 200px;">
+    <h4>🎯 Core Technologies</h4>
+    <p><img src="https://skillicons.dev/icons?i=nodejs,express,mongodb,js,ts,python,c" alt="Core Technologies" /></p>
+  </div>
+
+  <div style="flex: 1; min-width: 200px;">
+    <h4>🛠️ Frontend & Styling</h4>
+    <p><img src="https://skillicons.dev/icons?i=react,html,css,tailwind,bootstrap" alt="Frontend & Styling" /></p>
+  </div>
+
+  <div style="flex: 1; min-width: 200px;">
+    <h4>🔧 Tools & Platforms</h4>
+    <p><img src="https://skillicons.dev/icons?i=git,github,docker,vscode,postman,linux,vercel,netlify" alt="Tools & Platforms" /></p>
+  </div>
+
+  <div style="flex: 1; min-width: 200px;">
+    <h4>📊 Databases & Cloud</h4>
+    <p><img src="https://skillicons.dev/icons?i=mongodb,mysql,firebase,aws" alt="Databases & Cloud" /></p>
+  </div>
+
+</div>
+
+<details>
+  <summary><b>🔍 Detailed Tech Stack</b></summary>
   <br>
-  <img src="https://img.shields.io/badge/Sharingan%20Debugging-EF4444?style=flat-square&labelColor=18181B&color=EF4444" alt="Sharingan Badge" />
-  <img src="https://img.shields.io/badge/Amaterasu%20Code-7C3AED?style=flat-square&labelColor=18181B&color=7C3AED" alt="Amaterasu Badge" />
-</div>
-
-<!-- Divider: Amaterasu Flame -->
-<div align="center">
-  <div style="display: flex; justify-content: center; width: 100%;">
-    <img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&size=16&color=EF4444&center=true&vCenter=true&width=400&height=40&duration=800&lines=~~~+Amaterasu+Flame~~~;~~~+Tsukuyomi+Vow~~~" alt="Divider SVG" />
+  <div align="center">
+    <table>
+      <tr><th>Category</th><th>Technologies</th></tr>
+      <tr><td><b>Languages</b></td><td>![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black) ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=flat-square&logo=typescript&logoColor=white) ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![C](https://img.shields.io/badge/C-00599C?style=flat-square&logo=c&logoColor=white)</td></tr>
+      <tr><td><b>Backend</b></td><td>![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white) ![Express.js](https://img.shields.io/badge/Express.js-000000?style=flat-square&logo=express&logoColor=white) ![Socket.io](https://img.shields.io/badge/Socket.io-010101?style=flat-square&logo=socket.io&logoColor=white)</td></tr>
+      <tr><td><b>Databases</b></td><td>![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white) ![MySQL](https://img.shields.io/badge/MySQL-005C84?style=flat-square&logo=mysql&logoColor=white)</td></tr>
+      <tr><td><b>DevOps</b></td><td>![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white) ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white) ![JWT](https://img.shields.io/badge/JWT-000000?style=flat-square&logo=JSON%20web%20tokens&logoColor=white)</td></tr>
+    </table>
   </div>
-</div>
+</details>
 
----
+<!-- Featured Project -->
+<h2 align="center"><img src="https://media.giphy.com/media/iY8CRBdQXODJSCERIr/giphy.gif" width="30"> Featured Project</h2>
 
-## 🗡️ Itachi's Jutsu Arsenal
-<div align="center">
-
-### Shinobi Languages
-<div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 8px;">
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=18181B" alt="JavaScript" />
-  <img src="https://img.shields.io/badge/TypeScript-007ACC?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" />
-  <img src="https://img.shields.io/badge/Python-3670A0?style=flat-square&logo=python&logoColor=ffdd54" alt="Python" />
-  <img src="https://img.shields.io/badge/C-00599C?style=flat-square&logo=c&logoColor=white" alt="C" />
-</div>
-
-### Backend & Data Scrolls
-<div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 8px;">
-  <img src="https://img.shields.io/badge/Node.js-6DA55F?style=flat-square&logo=node.js&logoColor=white" alt="Node.js" />
-  <img src="https://img.shields.io/badge/Express.js-404D59?style=flat-square&logo=express&logoColor=white" alt="Express.js" />
-  <img src="https://img.shields.io/badge/MongoDB-4EA94B?style=flat-square&logo=mongodb&logoColor=white" alt="MongoDB" />
-  <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white" alt="MySQL" />
-</div>
-
-### Ninja Tools
-<div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 8px;">
-  <img src="https://img.shields.io/badge/Socket.io-010101?style=flat-square&logo=socket.io&logoColor=white" alt="Socket.io" />
-  <img src="https://img.shields.io/badge/JWT-000000?style=flat-square&logo=JSON%20web%20tokens" alt="JWT" />
-  <img src="https://img.shields.io/badge/Docker-0DB7ED?style=flat-square&logo=docker&logoColor=white" alt="Docker" />
-  <img src="https://img.shields.io/badge/TailwindCSS-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white" alt="TailwindCSS" />
-</div>
-
-### Deployment Jutsu
-<div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 8px;">
-  <img src="https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white" alt="Vercel" />
-  <img src="https://img.shields.io/badge/Netlify-00C7B7?style=flat-square&logo=netlify&logoColor=18181B" alt="Netlify" />
-  <img src="https://img.shields.io/badge/Sharingan%20Deployment-7C3AED?style=flat-square&labelColor=18181B&color=7C3AED" alt="Sharingan Deployment" />
-</div>
-
-</div>
-
-<!-- Divider: Shadow Clone -->
-<div align="center">
-  <div style="display: flex; justify-content: center; width: 100%;">
-    <img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&size=16&color=7C3AED&center=true&vCenter=true&width=400&height=40&duration=800&lines=~~~+Shadow+Clone+Jutsu~~~;~~~+Crimson+Eye~~~" alt="Divider SVG" />
+<div align="center" style="max-width: 600px; margin: auto;">
+  <a href="https://github.com/rajashekarpatha07/medswift">
+    <img width="100%" src="https://github-readme-stats.vercel.app/api/pin/?username=rajashekarpatha07&repo=medswift&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00D4FF&text_color=FFFFFF&icon_color=00D4FF" alt="MedSwift" />
+  </a>
+  <h3>🚑 MedSwift - Real-time Ambulance Tracking System</h3>
+  <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 10px;">
+    <img src="https://img.shields.io/badge/Status-Active-00FF88?style=for-the-badge&labelColor=0A0E27" alt="Status" />
+    <img src="https://img.shields.io/badge/Stack-MERN-00D4FF?style=for-the-badge&labelColor=0A0E27" alt="Stack" />
+    <img src="https://img.shields.io/badge/License-MIT-FF6B6B?style=for-the-badge&labelColor=0A0E27" alt="License" />
   </div>
+  <p><strong>Key Features:</strong></p>
+  <ul>
+    <li>🗺️ Real-time GPS tracking with Socket.IO</li>
+    <li>🔐 Secure JWT authentication system</li>
+    <li>📡 RESTful API architecture</li>
+    <li>💾 Scalable MongoDB database</li>
+    <li>📱 Responsive cross-platform interface</li>
+  </ul>
 </div>
 
----
+<!-- GitHub Analytics -->
+<h2 align="center"><img src="https://media.giphy.com/media/iY8CRBdQXODJSCERIr/giphy.gif" width="30"> GitHub Analytics</h2>
 
-## 📈 Shinobi Mission Log
+<div align="center" style="display: flex; flex-wrap: wrap; justify-content: center; gap: 10px; max-width: 100%;">
+  <img width="48%" src="https://github-readme-stats.vercel.app/api?username=rajashekarpatha07&show_icons=true&count_private=true&hide_border=true&title_color=00D4FF&icon_color=00D4FF&text_color=FFFFFF&bg_color=0d1117" alt="GitHub Stats" style="max-width: 100%;" />
+  <img width="48%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=rajashekarpatha07&layout=compact&hide_border=true&title_color=00D4FF&text_color=FFFFFF&bg_color=0d1117&langs_count=8" alt="Top Languages" style="max-width: 100%;" />
+</div>
+
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=rajashekarpatha07&show_icons=true&theme=radical&hide_border=true&bg_color=18181B&title_color=EF4444&text_color=7C3AED&icon_color=EF4444" alt="GitHub Stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=rajashekarpatha07&layout=compact&theme=radical&hide_border=true&langs_count=6&card_width=320&hide=html,css&bg_color=18181B&title_color=EF4444&text_color=7C3AED" alt="Languages" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=rajashekarpatha07&theme=tokyonight&hide_border=true&stroke=0000&background=0D1117&ring=00D4FF&fire=00FF88&currStreakLabel=00D4FF" alt="GitHub Streak" style="max-width: 100%;" />
 </div>
 
-<!-- Divider: Eternal Flame -->
 <div align="center">
-  <div style="display: flex; justify-content: center; width: 100%;">
-    <img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&size=16&color=EF4444&center=true&vCenter=true&width=400&height=40&duration=800&lines=~~~+Eternal+Flame~~~;~~~+Tsukuyomi+Legacy~~~" alt="Divider SVG" />
-  </div>
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=rajashekarpatha07&custom_title=Raja%20Shekar's%20Contribution%20Graph&bg_color=0d1117&color=00D4FF&line=00FF88&point=FFFFFF&hide_border=true&area=true" alt="Contribution Graph" style="max-width: 100%;" />
 </div>
 
----
+<!-- GitHub Trophies -->
+<h2 align="center">🏆 GitHub Trophies</h2>
 
-## 🏆 Shinobi Honors
 <div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=rajashekarpatha07&theme=radical&no-frame=true&margin-w=10&column=6&no-bg=true&title_color=EF4444" alt="GitHub Trophies" />
+  <img src="https://github-profile-trophy.vercel.app/?username=rajashekarpatha07&theme=algolia&no-frame=true&no-bg=true&margin-w=4&column=-1" alt="GitHub Trophies" style="max-width: 100%;" />
 </div>
 
----
+<!-- Weekly Development Breakdown -->
+<h2 align="center">📊 Weekly Development Breakdown</h2>
 
-## 🔝 Elite Mission: MedSwift
+<div align="center" style="max-width: 600px; margin: auto;">
+<pre><code>JavaScript   12 hrs 30 mins  ████████████░░░░░░░░  60.5%
+Node.js      4 hrs 45 mins   ████░░░░░░░░░░░░░░░░  23.0%
+MongoDB      2 hrs 15 mins   ██░░░░░░░░░░░░░░░░░░  10.9%
+HTML/CSS     1 hr 10 mins    █░░░░░░░░░░░░░░░░░░░   5.6%</code></pre>
+</div>
+
+<!-- Current Goals -->
+<h2 align="center">🎯 Current Goals</h2>
+
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=rajashekarpatha07&repo=medswift&theme=radical&hide_border=true&show_owner=true&bg_color=18181B&title_color=EF4444&text_color=7C3AED" alt="Top Repo" />
+  <table>
+    <tr><th>🎓 Learning</th><th>🔨 Building</th><th>🎯 Mastering</th></tr>
+    <tr><td>Cloud Architecture</td><td>Microservices</td><td>System Design</td></tr>
+    <tr><td>AWS Services</td><td>REST APIs</td><td>Performance Optimization</td></tr>
+    <tr><td>DevOps Practices</td><td>Real-time Apps</td><td>Database Scaling</td></tr>
+  </table>
 </div>
 
----
+<!-- Dev Quote -->
+<h2 align="center">💭 Dev Quote of the Day</h2>
 
-## 🥷 Visitors to the Hidden Code Village
 <div align="center">
-  <img src="https://komarev.com/ghpvc/?username=rajashekarpatha07&label=Shinobi+Visitors&color=7C3AED&style=flat-square" />
-  <img src="https://img.shields.io/badge/Hidden%20Code%20Village-7C3AED?style=flat-square&labelColor=18181B&color=7C3AED" alt="Village Badge" />
+  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" alt="Random Dev Quote" style="max-width: 100%;" />
 </div>
 
-<!-- Forged under Itachi's Sharingan in the Hidden Code Village -->
+<!-- Profile Views and Stats -->
+<div align="center" style="display: flex; flex-wrap: wrap; justify-content: center; gap: 10px; margin-top: 20px;">
+  <img src="https://komarev.com/ghpvc/?username=rajashekarpatha07&label=Profile+Views&color=00D4FF&style=for-the-badge&labelColor=0A0E27" alt="Profile Views" />
+  <img src="https://img.shields.io/github/followers/rajashekarpatha07?label=Followers&style=for-the-badge&color=00FF88&labelColor=0A0E27" alt="Followers" />
+  <img src="https://img.shields.io/github/stars/rajashekarpatha07?label=Total%20Stars&style=for-the-badge&color=FF6B6B&labelColor=0A0E27" alt="Total Stars" />
+</div>
+
+<!-- Snake Animation -->
+<div align="center" style="margin-top: 20px;">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/platane/platane/output/github-contribution-grid-snake-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/platane/platane/output/github-contribution-grid-snake.svg">
+    <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/platane/platane/output/github-contribution-grid-snake.svg" style="max-width: 100%;">
+  </picture>
+</div>
+
+<!-- Footer Wave -->
+<div align="center">
+  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=30,5,2,2,0&height=120&section=footer&animation=twinkling" alt="Footer" />
+</div>
