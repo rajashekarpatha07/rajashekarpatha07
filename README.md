@@ -1,5 +1,5 @@
 <!-- Header -->
-<!--<div align="center">
+<div align="center">
   <img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=800&size=32&duration=3000&pause=1000&color=6366F1&center=true&vCenter=true&random=false&width=600&height=60&lines=Hi+👋+I'm+Raja+Shekar;Full+Stack+Developer;Backend+Architect" alt="Header" />
 </div>
 
@@ -9,7 +9,7 @@
   <a href="https://github.com/rajashekarpatha07"><img src="https://img.shields.io/badge/-GitHub-6366F1?style=flat-square&logo=GitHub&logoColor=white&link=https://github.com/rajashekarpatha07" alt="GitHub"/></a>
   <img src="https://komarev.com/ghpvc/?username=rajashekarpatha07&color=6366F1&style=flat-square" alt="Profile Views" />
 </div>
--->
+
 <br>
 
 <!-- About -->
@@ -78,7 +78,7 @@ const raja = {
 <br>
 
 <!-- GitHub Stats -->
-### 📊 GitHub Stats
+<!--### 📊 GitHub Stats
 
 <div align="center">
   <img height="180em" src="https://github-readme-stats.vercel.app/api?username=rajashekarpatha07&show_icons=true&theme=transparent&hide_border=true&title_color=6366F1&text_color=94A3B8&icon_color=6366F1&bg_color=0F172A" alt="GitHub Stats" />
@@ -88,7 +88,7 @@ const raja = {
 <div align="center">
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=rajashekarpatha07&theme=transparent&hide_border=true&ring=6366F1&fire=EF4444&currStreakLabel=6366F1&background=0F172A&sideLabels=94A3B8&dates=64748B" alt="GitHub Streak" />
 </div>
-
+-->
 <br>
 
 <!-- Contribution Graph -->
