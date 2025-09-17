@@ -1,5 +1,5 @@
 <!-- Header -->
-<div align="center">
+<!--<div align="center">
   <img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=800&size=32&duration=3000&pause=1000&color=6366F1&center=true&vCenter=true&random=false&width=600&height=60&lines=Hi+👋+I'm+Raja+Shekar;Full+Stack+Developer;Backend+Architect" alt="Header" />
 </div>
 
@@ -9,7 +9,7 @@
   <a href="https://github.com/rajashekarpatha07"><img src="https://img.shields.io/badge/-GitHub-6366F1?style=flat-square&logo=GitHub&logoColor=white&link=https://github.com/rajashekarpatha07" alt="GitHub"/></a>
   <img src="https://komarev.com/ghpvc/?username=rajashekarpatha07&color=6366F1&style=flat-square" alt="Profile Views" />
 </div>
-
+-->
 <br>
 
 <!-- About -->
