@@ -1,127 +1,108 @@
-# Raja Shekar Patha
+<h1 align="center">Raja Shekar Patha</h1>
 
-**Backend Developer** | Node.js Specialist | Hyderabad, India
+<p align="center">
+  Backend Developer &nbsp;·&nbsp; Node.js &nbsp;·&nbsp; Hyderabad, India
+</p>
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/raja-shekar-patha-4519a6340/)
-[![Email](https://img.shields.io/badge/Email-EA4335?style=flat&logo=gmail&logoColor=white)](mailto:rajashekarpatha07@gmail.com)
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white)](https://github.com/rajashekarpatha07)
+<p align="center">
+  <a href="https://www.linkedin.com/in/raja-shekar-patha-4519a6340/">
+    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white"/>
+  </a>
+  &nbsp;
+  <a href="mailto:rajashekarpatha07@gmail.com">
+    <img src="https://img.shields.io/badge/Gmail-EA4335?style=flat-square&logo=gmail&logoColor=white"/>
+  </a>
+  &nbsp;
+  <a href="https://github.com/rajashekarpatha07">
+    <img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white"/>
+  </a>
+</p>
 
 ---
 
-## About Me
+I build backend systems — APIs, real-time infrastructure, and data layers. My focus is on writing clean, well-structured code and understanding *why* a system is designed the way it is, not just making it work.
 
-Backend Developer specializing in high-performance Node.js applications. I architect secure, scalable APIs and real-time systems using TypeScript, Prisma, and Express.js. Proven track record in aggressive performance optimization through Redis caching (reducing database load by 95%) and building event-driven architectures. Currently re-architecting **MedSwift V2** with modern tech stack for enhanced scalability.
+Currently re-architecting **MedSwift** with PostgreSQL + Prisma after learning the limitations of the first version.
 
 ---
 
 ## Tech Stack
 
-**Languages**
+**Languages:** TypeScript · JavaScript · Python · C
 
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![C](https://img.shields.io/badge/C-A8B9CC?style=for-the-badge&logo=c&logoColor=black)
+**Backend:** Node.js · Express.js · Socket.IO · Prisma · JWT · Zod
 
-**Backend**
+**Databases:** PostgreSQL · MongoDB · MySQL · Redis
 
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white)
-![Express](https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white)
-![Prisma](https://img.shields.io/badge/Prisma-2D3748?style=for-the-badge&logo=prisma&logoColor=white)
-![Socket.io](https://img.shields.io/badge/Socket.io-010101?style=for-the-badge&logo=socket.io&logoColor=white)
-![JWT](https://img.shields.io/badge/JWT-000000?style=for-the-badge&logo=jsonwebtokens&logoColor=white)
-
-**Frontend**
-
-![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
-
-**Databases & Caching**
-
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
-
-**DevOps & Tools**
-
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
-![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)
+**Tools:** Git · Docker · Linux · Postman
 
 ---
 
-## Featured Projects
+## Projects
 
-### 🚑 [MedSwift V2](https://github.com/rajashekarpatha07/MedswiftV2) *(In Development)*
+### 🚑 MedSwift — Real-time Emergency Dispatch System
 
-Re-architecting the ambulance dispatch system with modern tech stack for enhanced scalability and performance.
+The core problem: in a medical emergency, every second matters. This system connects patients to the nearest available ambulance automatically, without manual coordination.
 
-**Tech Stack:** TypeScript, Node.js, Express.js, Prisma, PostgreSQL, Redis, Socket.IO, JWT
+**How it works:**
+- Redis Geospatial index stores all active (ready) ambulances. On a trip request, the system searches at 5km → 10km → 17km → 30km until it finds one
+- The nearest ambulance is auto-assigned atomically — removed from the Redis pool before the trip is saved, with a rollback if the save fails, preventing double-assignment
+- Socket.IO rooms (`user:{id}`, `ambulance:{id}`, `trip:{id}`) handle real-time state sync between patient, driver, and admin
+- Trip status follows a strict state machine: `SEARCHING → ACCEPTED → ARRIVED_PICKUP → EN_ROUTE_HOSPITAL → ARRIVED_HOSPITAL → COMPLETED`
+- Every status change is appended to an immutable timeline in MongoDB for audit
 
-- Migrating from JavaScript/MongoDB to TypeScript/Prisma/PostgreSQL for superior type safety
-- Redesigning API architecture with advanced caching strategies
-- Building enhanced real-time features with improved Socket.IO implementation
+**Stack:** Node.js · TypeScript · Express · MongoDB · Redis · Socket.IO · Zod · JWT
 
-### 🚑 [MedSwift](https://github.com/rajashekarpatha07/medswift)
+[![Repo](https://img.shields.io/badge/GitHub-medswift-181717?style=flat-square&logo=github)](https://github.com/rajashekarpatha07/medswift)
 
-Real-time ambulance dispatch system with live GPS tracking and tri-directional communication.
+---
 
-**Tech Stack:** Node.js, Express.js, MongoDB, Socket.IO, Redis, JWT
+### 🚑 MedSwift V2 *(In Progress)*
 
-- MongoDB GeoSpatial queries for nearest ambulance dispatch (50% efficiency improvement)
-- Real-time tracking with Socket.IO for users, drivers, and admins
-- Redis caching reducing database calls by 60%
-- Secure role-based access control with JWT authentication
+Rebuilding with lessons learned from V1. Main changes: PostgreSQL + Prisma for proper relational data and ACID guarantees, structured logging with Pino instead of console.log, and fixing the gaps I found in V1 (missing compound indexes, rate limiting disabled, Redis KEYS → SCAN).
 
-### 📚 [College Hub V2](https://github.com/rajashekarpatha07/collegehubv2)
+**Stack:** TypeScript · Express · Prisma · PostgreSQL · Redis · Socket.IO
 
-High-performance academic platform with advanced caching and type-safe APIs.
+[![Repo](https://img.shields.io/badge/GitHub-MedswiftV2-181717?style=flat-square&logo=github)](https://github.com/rajashekarpatha07/MedswiftV2)
 
-**Tech Stack:** TypeScript, Node.js, Express.js, Prisma, MySQL, Redis, Cloudinary
+---
 
-- TypeScript/Prisma migration enhancing type-safety and query efficiency
-- Redis caching layer reducing database load by 95% for repeat requests
-- 25+ type-safe RESTful APIs with role-based access control
-- Cloudinary integration reducing database storage by 90%
+### 📚 College Hub V2 — Academic Platform
+
+A platform for managing academic resources — notes, schedules, announcements — with role-based access for students, faculty, and admins.
+
+Redis caching on the most-hit read endpoints brought repeated DB queries down significantly. Built 25+ REST APIs, all typed end-to-end with TypeScript and Prisma.
+
+**Stack:** TypeScript · Express · Prisma · MySQL · Redis · Cloudinary
+
+[![Repo](https://img.shields.io/badge/GitHub-collegehubv2-181717?style=flat-square&logo=github)](https://github.com/rajashekarpatha07/collegehubv2)
 
 ---
 
 ## GitHub Stats
 
-<div align="center">
+<p align="center">
+  <img height="170em" src="https://github-readme-stats.vercel.app/api?username=rajashekarpatha07&show_icons=true&theme=github_dark&hide_border=true&include_all_commits=true&count_private=true&rank_icon=github&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9&icon_color=58a6ff"/>
+  &nbsp;
+  <img height="170em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=rajashekarpatha07&layout=compact&theme=github_dark&hide_border=true&langs_count=6&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9"/>
+</p>
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=rajashekarpatha07&show_icons=true&theme=dark&hide_border=true&include_all_commits=true&count_private=true&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9&icon_color=58a6ff)
+<p align="center">
+  <img width="65%" src="https://streak-stats.demolab.com/?user=rajashekarpatha07&theme=github-dark-blue&hide_border=true&background=0d1117&ring=58a6ff&fire=58a6ff&currStreakLabel=c9d1d9&sideLabels=c9d1d9&dates=4d6a99"/>
+</p>
 
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=rajashekarpatha07&layout=compact&theme=dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9)
-
-![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=rajashekarpatha07&theme=dark&hide_border=true&background=0d1117&ring=58a6ff&fire=58a6ff&currStreakLabel=c9d1d9)
-
-</div>
-
----
-
-## Contribution Activity
-
-![Contribution Graph](https://github-readme-activity-graph.vercel.app/graph?username=rajashekarpatha07&theme=github-dark&hide_border=true&area=true&bg_color=0d1117&color=58a6ff&line=58a6ff&point=c9d1d9)
+> Stats only count public repositories. If the cards show "not found", make sure your key repos are set to public on GitHub.
 
 ---
 
-## Current Focus
+## Currently Working On
 
-- 🏗️ Re-architecting production systems with modern tech stacks
-- 📚 System design and architecture patterns
-- ⚡ Advanced backend optimization techniques
-- ☁️ Cloud technologies (AWS) and DevOps practices
+- Finishing MedSwift V2 — PostgreSQL migration + proper logging
+- Learning Docker and AWS for deploying these projects
+- Going deeper into system design — distributed systems, message queues
 
 ---
 
-<div align="center">
-
-**Thanks for visiting!** Feel free to connect with me or explore my repositories.
-
-</div>
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=rajashekarpatha07&color=58a6ff&style=flat-square&label=Profile+Views"/>
+</p>
